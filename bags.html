@@ -1,0 +1,174 @@
+<html>
+  <head>
+    <title>Frau Store</title>
+      
+    <link rel="stylesheet" href="cart.css">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="style.css">
+    
+    <script src="https://kit.fontawesome.com/6d68415923.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+</head>
+<body>
+  <div id="header">
+    <a href="#"><img src="logoOpen.png" class="logo"></a>
+     <div>
+      <ul id="bar">
+         <li> <a href="index.html">Home</a></li>
+         <li> <a href="shop.html">Shop</a></li>
+         <li> <a href="blog.html">Blog</a></li>
+         <li> <a href="about.html">About</a></li>
+         <li> <a href="contact.html">Contact</a></li>
+          <li> <a class="active" href="bags.html"><i class="fa-solid fa-bag-shopping"></i>
+          </a></li>
+ 
+      </ul>  
+         <!--<a href="#" id="close"><i class="far fa-times"></i></a>-->
+        
+      </div> 
+ 
+    </div>
+  <!--start background-->
+<div id="bg-header" class="about-header" >
+  
+     
+  <h2 style="color: white;">#Cart</h2>
+    
+  <p style="color: white;">Save more with coupons & up to 70% off!</p> 
+   
+  </div>
+
+      <div id="mobile">
+    <!--<a href="cart.html"><i class="far fa-shopping-bag"></i></a>-->
+      </div>
+    </div>
+    <!--end background-->
+      <div id="cart" class="div-p1 ">
+        <table width="100%">
+        <thead>
+          <tr>
+            <td>Remove</td>
+            <td>Image</td>
+            <td>Product</td>
+            <td>Price</td>
+            <td>Quantity</td>
+            <td>Subtotal</td>
+          </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td><a href ="#"><i class="far fa-times-circle" id="p" onclick="p.style.display='none';"onclick="remove()" ></i></a></td>
+          <td><img  class="images" src=" products/f1.jpg" alt=""></td>
+          <td> cartoon astrounaut T-shirts </td>
+          <td>$118.19</td>
+          <td><input type="number" value="1"></td>
+          <td>$118.19</td>
+         </tr>
+         <tr>
+          <td><a href ="#"><i class="far fa-times-circle" id="p2"></i></a></td>
+          <td><img src=" products/f2.jpg" alt=""></td>
+          <td> cartoon astrounaut T-shirts </td>
+          <td>$118.19</td>
+          <td><input type="number" value="1"></td>
+          <td>$118.19</td> 
+         </tr>
+         <tr>
+          <td><a href ="#"><i class="far fa-times-circle" id="p3"></i></a></td>
+          <td><img src=" products/f3.jpg" alt=""></td>
+          <td> cartoon astrounaut T-shirts </td>
+          <td>$118.19</td>
+          <td><input type="number" value="1"></td>
+          <td>$118.19</td>
+         </tr>
+        </tbody>
+        </table>
+      </div>
+
+     <div id="cart-add" class="div-p1">   
+       <div id="coupon">
+         <h3>Apply coupon</h3>
+           <div>
+            <input type="text" placeholder="enter your coupon">
+            <button class="n">Apply</button>
+           </div>
+       </div>
+        <div id="subtotal">
+         <h3>Cart totals</h3>
+         <table>  
+          <tr>
+           <td> Cart Subtotal</td>
+            
+          </tr>
+          <tr>
+           <td>Shipping</td> 
+            
+          </tr>
+          <tr>
+           <td><strong>Total</strong></td> 
+            
+          </tr>
+         </table>
+         
+         <button class="n">proceed to checkout</button>
+       </div>
+      </div> 
+      <!--start footer-->
+ 
+ 
+     <div class="ftr" class="div-p1"  style="margin-left: 85px; margin-top: 50px;">
+  <div class="colm1"><img  src="logoOpen.png" class="logo">
+      <h4>Contact</h4>
+      <p> <strong>Address: </strong>25 Miami Road,Alexandria</p>
+      <p> <strong> Phone: </strong> 0123456789 </p>
+      <p> <strong>Hours: </strong>10:00 am - 10:00 pm ,Mon-Sat</p>
+    
+   <div class="follow">
+      <h4>Follow us</h4><br>
+      <div class="icon">
+          <a href="http://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+          <a href="http://www.twitter.com"> <i class="fab fa-twitter"></i></a>
+          <a href="http://www.instagram.com"> <i class="fab fa-instagram"></i></a>
+          <a href="http://www.pinterest.com"> <i class="fab fa-pinterest-p"></i></a>
+          <a href="http://www.youtube.com"> <i class="fab fa-youtube"></i></a>
+      </div>
+      
+   </div>
+  </div>
+  
+  <div class="colm">
+      <h4>About</h4>
+      <a href="#"> About Us </a>
+      <a href="#"> Delivery Information </a>
+      <a href="#"> Privacy Policy </a>
+      <a href="#">Terms & Conditions</a>
+      <a href="#">Contact Us</a>
+  </div>
+  
+  <div class="colm">
+      <h4>My Account</h4>
+      <a href="#"> Sign In </a>
+      <a href="#"> View Cart </a>
+      <a href="#"> My Wishlist </a>
+      <a href="#">Track My Order</a>
+      <a href="#">Help</a>
+  </div>
+  <div class="install">
+      <h4>Install App</h4>
+      <p>From App Store or Google Play</p>
+       <div class="images"> <img src="pay/app.jpg"><img src="pay/play.jpg"></div>
+      <p>Secured Payment Gateways</p>
+       <img src="pay/pay.png">
+  </div>  
+   <div class="cpy"><p>© 2022 Frau ,Marcil </p></div>
+   
+  </div>
+  <script>
+     function remove(){
+        rImg=document.getElementsByClassName("images");
+        remoSign=document.getElementById("p") 
+        if( remoSign.style.display="none") { rImg.style.display="none";};
+         
+        }
+  </script>
+</body>
+</html>

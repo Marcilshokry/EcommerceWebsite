@@ -1,0 +1,45 @@
+ 
+.alrt {
+   width: 350px;
+   height: 100px;
+  background-color: #088179df;
+  color: white;
+  display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width: 40%; position:absolute ;
+   transform: translateX(-50%,-50%);
+   left: 30%;right: 30%;
+  font-size: large;
+  border: 1px solid transparent;
+   border-radius: 10px;
+   padding-bottom: 15px;
+   margin-top: 200px;
+    
+}
+
+.closebtn {
+    padding-left: 85%;
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 30px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#lst{
+    display: none;
+    position: sticky;
+    z-index: 998;
+     
+    top:20% ;
+
+}
+.closebtn:hover {
+  color: black;
+}
+
+ 

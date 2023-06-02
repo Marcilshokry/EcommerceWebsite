@@ -1,0 +1,264 @@
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background-color:#E3E6F3;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;}
+    #bar{
+        display: flex;
+    align-items: center;
+    justify-content:center;
+     }
+     #bar li{
+        list-style: none;
+        padding: 0 20px;
+        position: relative;
+     }
+     #bar li a{
+        text-decoration: none;
+        font-size: 16px;
+        font-weight:600;
+        color: #1a1a1a;
+        transition: 0.3s ease; 
+     }
+     #bar li a:hover,
+     #bar li a.active{
+        color: #088178;
+     }
+     #bar li a.active::after,
+     #bar li a:hover::after {
+        content: "";
+        width: 30%;
+        height: 2px;
+        background: #088178;
+        position: absolute;
+        bottom: -4px;
+        left: 20px;
+     }
+    #bg-header{
+        background-image: url("about/banner.png");
+        height: 40vh;
+        background-size: cover;
+        display: flex;
+         justify-content: center;
+        text-align: center;
+         flex-direction: column;
+        padding:14px;
+        font-size: 20px;
+    }
+    #bar{
+    display: flex;
+align-items: center;
+justify-content:center;
+}
+ #bar li{
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+ }
+ #bar li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight:600;
+    color: #1a1a1a;
+    transition: 0.3s ease; 
+ }
+ #bar li a:hover,
+ #bar li a.active{
+    color: #088178;
+
+ }
+ #bar li a.active::after,
+ #bar li a:hover::after {
+    content: "";
+    width: 30%;
+    height: 2px;
+    background: #088178;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+ }
+  #contact-details {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 50px;
+    }
+#contact-details .details {
+    width:60%;
+    }
+#contact-details .details span,
+#form-details span
+{
+    font-size:26px;
+    margin-left: 20px;
+    }
+#contact-details .details h2,
+#form-details form h2 {
+    font-size:26px;
+    line-height:35px;
+    padding:10px 0;
+    padding-left: 20px;
+    margin-left: 20px;
+    }
+#contact-details .details h3,
+#form-details form h3 {
+    font-size:16px;
+    padding-bottom:15px ;
+    margin-left: 10px;
+    }
+#contact-details .details li {
+    list-style:none; 
+    display: flex;
+    padding:10px ;
+    }
+#contact-details .details li i {
+    font-size:14px;
+    padding-right:22px ;
+    }
+#contact-details .details li p {
+    margin:0;
+    font-size:14px;
+    }
+#contact-details .map {
+    width:90%;
+    height:500px;
+    }
+#contact-details .map iframe{
+    width: 90%;
+    height:90%;
+    }*/
+#form-details form {
+    width:30%;
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+    }
+#form-details form input,
+#form-details form textarea {
+    width:70%;
+    padding:20px 15px;
+    outline:none;
+    margin-bottom:20px;
+    border:1px solid #e1e1e1;
+    margin-left: 20px;
+    }
+#form-details form button {
+    background-color: #088178;
+    color:#fff;
+    }
+    #sign{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap; 
+        align-items: center;
+        background-image: url("banner/b14.png");
+        background-repeat: no-repeat;
+        background-position: 20% 30%;
+        background-color: #041e42;
+        height: 100px;
+        }
+        #sign input{
+           height: 50px;
+           width: 250px;
+           padding:0 15px;
+           font-size: 14px;
+           border: 1px solid transparent;
+           border-radius: 10px;
+           outline:none;
+           border-top-right-radius: 0;
+           border-bottom-right-radius: 0;
+        
+        }
+        #sign{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap; 
+            align-items: center;
+            background-image: url("banner/b14.jpg");
+            background-repeat: no-repeat;
+            background-position: 20% 30%;
+            background-color: #041e42;
+            height: 100px;
+            }
+            #sign input{
+               height: 50px;
+               width: 250px;
+               padding:0 15px;
+               font-size: 14px;
+               border: 1px solid transparent;
+               border-radius: 10px;
+               outline:none;
+               border-top-right-radius: 0;
+               border-bottom-right-radius: 0;
+            
+            }
+        #sign form{
+           display: flex;
+           width:100%;
+        }
+        #sign button{
+           height: 51.5px;
+           border-radius: 10px;
+           background-color: #088178;
+           color: white;
+           border-top-left-radius: 0;
+           border-bottom-left-radius: 0;
+           margin-top: 0;
+        }
+        #sign button:hover{
+           background-color:white ;
+           color: #088178;
+        }
+    .ftr{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        }
+        .ftr .colm{
+           display: flex;
+           flex-direction: column;
+           align-items: flex-start;
+           margin-bottom: 30px;
+           }
+           .ftr .logo{
+              margin-bottom: 30px;
+           }
+           .ftr h4{
+              font-size: 19px;
+              padding-bottom: 20px;
+           }
+           .ftr p{
+              font-size: 15px;
+              margin : 0 0 8px 0;
+           }
+           .ftr a{
+              font-size: 15px;
+              margin-bottom: 10px;
+              text-decoration: none;
+              color: #222;
+           }
+           .ftr .follow{
+              margin-top: 20px;
+           }
+           .ftr .install .images img{
+              border:1px solid #088178;
+              border-radius: 6px;
+           }
+           .ftr .install img{
+              margin: 10px 0 15px 0;
+           }
+           .ftr .follow i:hover,
+           .ftr a:hover{
+              color: #088178;
+           }
+           .ftr .cpy{
+              width: 100%;
+              text-align: center;
+              margin-top: 10px;
+           }
